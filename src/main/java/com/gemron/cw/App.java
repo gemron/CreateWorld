@@ -1,13 +1,14 @@
 package com.gemron.cw;
 
 /**
- * Hello world!
+ * 应用入口
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        World world = new World();
+
     }
 }

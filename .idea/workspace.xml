@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c9228b7-9e8c-4e74-9958-36f3fd3ba115" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Relation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Space.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Thing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gemron/cw/AppTest.java" afterDir="false" />
+    <list default="true" id="0c9228b7-9e8c-4e74-9958-36f3fd3ba115" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/impl/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/base/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/base/Relation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/base/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/base/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/base/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemron/cw/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemron/cw/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +48,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gemron.cw" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.gemron.cw.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gemron.cw.App" />
       <module name="CreateWorld" />
       <extension name="coverage">
@@ -71,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.com.gemron.cw.App" />
       </list>
     </recent_temporary>
   </component>
@@ -83,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658655704072</updated>
-      <workItem from="1658655705430" duration="2339000" />
+      <workItem from="1658655705430" duration="5921000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1658658944008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658658944008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
